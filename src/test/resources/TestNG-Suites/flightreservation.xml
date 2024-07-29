@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="flight-reservation">
+    <test name="flight-reservation-count1">
+        <parameter name="testpath" value="Test-Data/flightReservation/flightreservation1.json"/>
+        <classes>
+            <class name="com.flightreservation.tests.FlightReservationTest"/>
+        </classes>
+    </test>
+    <test name="flight-reservation-count2">
+        <parameter name="testpath" value="Test-Data/flightReservation/flightreservation2.json"/>
+        <classes>
+            <class name="com.flightreservation.tests.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name="flight-reservation-count3">
+        <parameter name="testpath" value="Test-Data/flightReservation/flightreservation3.json"/>
+        <classes>
+            <class name="com.flightreservation.tests.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name="flight-reservation-count4">
+        <parameter name="testpath" value="Test-Data/flightReservation/flightreservation4.json"/>
+        <classes>
+            <class name="com.flightreservation.tests.FlightReservationTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+{
+  "firstname": "John",
+  "lastname": "peter",
+  "email": "gbdghbhf@45.com",
+  "password": "dfcdsf",
+  "street": "123 main",
+  "city":"Newyork",
+  "zip": "34001",
+  "passengercount": 1,
+  "expectedprice": "$584 USD"
+}
